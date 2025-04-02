@@ -1,0 +1,29 @@
+{
+  "main": "main.js",
+  "name": "kalidoface3d-electron-linux",
+  "version": "1.0.0",
+  "description": "Unofficial Kalidoface 3D desktop client for Linux. Made With Electron",
+  "author": "Kanagawa Yamada <yamadakernel.project@gmail.com>",
+  "homepage": "https://github.com/LoggingNewMemory",
+  "devDependencies": {
+    "electron": "^35.1.2",
+    "electron-builder": "^26.0.12"  
+  },
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder --linux"
+  },
+  "build": {
+    "appId": "com.kanagawa.yamada.kalidoface3d.electron",
+    "productName": "Kalidoface 3D",
+    "linux": {
+      "target": [
+        "AppImage",
+        "deb",
+        "rpm"
+      ],
+      "category": "Utility",
+      "icon": "logo/kalidoface.png"
+    }
+  }
+}
