@@ -3,6 +3,10 @@
 Unofficial Linux Client for Kalidoface 3D <br />
 Build with Electron
 
+<a href="https://snapcraft.io/kalidoface3d-electron-linux">
+    <img alt="Get it from the Snap Store" src=https://snapcraft.io/en/dark/install.svg />
+  </a>
+
 How to install?
 
 1. Go to Release page and get your .deb / .rpm / .AppImage
